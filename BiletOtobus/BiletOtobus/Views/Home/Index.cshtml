@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var today = DateTime.Today.ToString("yyyy-MM-dd");
+}
+<style>
+    #search{
+        margin-top:10px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-lg-12">
+        <span id="slogan">
+            <h1>En Ucuz Otobüs Bileti Fiyatları Burada!</h1>
+        </span>
+    </div>
+</div>
+<form asp-action="Search" method="post">
+    <div class="form-group">
+        <label for="fromCityName">Nereden</label>
+        <select class="form-control" id="fromCityName" name="fromCityName">
+            <option value="">Şehir Seçin</option>
+            @foreach (var city in ViewBag.City as SelectList)
+            {
+                <option value="@city.Text">@city.Text</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="toCityName">Nereye</label>
+        <select class="form-control" id="toCityName" name="toCityName">
+            <option value="">Şehir Seçin</option>
+            @foreach (var city in ViewBag.City as SelectList)
+            {
+                <option value="@city.Text">@city.Text</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="date">Seyahat Tarihi</label>
+        <input type="date" class="form-control" id="date" name="date" value="@DateTime.Now.ToString("yyyy-MM-dd")">
+    </div>
+    <button id="search" type="submit" class="btn btn-primary">Sefer Ara</button>
+</form>

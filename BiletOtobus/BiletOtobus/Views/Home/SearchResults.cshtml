@@ -1,0 +1,45 @@
+﻿@model List<Trip>
+@{
+    ViewData["Title"] = "Arama Sonuçları";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Seferler</h2>
+        @if (Model != null && Model.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nereden</th>
+                        <th>Nereye</th>
+                        <th>Tarih</th>
+                        <th>Fiyat</th>
+                        <th>Koltuk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var trip in Model)
+                    {
+                        <tr>
+                            <td>@ViewBag.FromCityName</td>
+                            <td>@ViewBag.ToCityName</td>
+                            <td>@trip.DepartureTime.ToString("yyyy-MM-dd HH:mm")</td>
+                            <td>@trip.Price</td>
+                            <td>
+                                <form action="TripDetails" method="get">
+                                    <input type="hidden" name="tripId" value="@trip.Id" />
+                                    <button type="submit" class="btn btn-primary">Seç</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>@ViewBag.Message</p>
+        }
+    </div>
+</div>

@@ -1,0 +1,49 @@
+﻿@model List<Seat>
+
+@{
+    ViewData["Title"] = "Koltuk Durumları";
+}
+
+<h2>Koltuk Durumları</h2>
+
+<form asp-action="SelectSeats" method="post">
+    <input type="hidden" name="tripId" value="@ViewBag.TripId" />
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Koltuk Numarası</th>
+                        <th>Durum</th>
+                        <th>Seç</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var seat in Model)
+                    {
+                        <tr>
+                            <td>@seat.SeatNumber</td>
+                            <td>
+                                @if (!seat.IsStatus)
+                                {
+                                    <span style="color: red;">Dolu</span>
+                                }
+                                else
+                                {
+                                    <span style="color: green;">Boş</span>
+                                }
+                            </td>
+                            <td>
+                                @if (seat.IsStatus)
+                                {
+                                    <input type="checkbox" name="selectedSeatIds" value="@seat.Id" />
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Bilet Al</button>
+</form>

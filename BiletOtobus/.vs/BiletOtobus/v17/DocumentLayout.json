@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|c:\\users\\melek\\onedrive\\masa\u00FCst\u00FC\\biletotobus\\biletotobus\\biletotobus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\biletotobus\\views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\biletotobus\\views\\home\\tripdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\views\\home\\tripdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\biletotobus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\biletotobus\\views\\home\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\views\\home\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\biletotobus\\views\\home\\savedticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5338CD7-CBF3-497F-8A82-D3B452B48F42}|BiletOtobus\\BiletOtobus.csproj|solutionrelative:biletotobus\\views\\home\\savedticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SavedTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\SavedTicket.cshtml",
+              "RelativeDocumentMoniker": "BiletOtobus\\Views\\Home\\SavedTicket.cshtml",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\SavedTicket.cshtml",
+              "RelativeToolTip": "BiletOtobus\\Views\\Home\\SavedTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T13:11:53.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\TicketDetails.cshtml",
+              "RelativeDocumentMoniker": "BiletOtobus\\Views\\Home\\TicketDetails.cshtml",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\TicketDetails.cshtml",
+              "RelativeToolTip": "BiletOtobus\\Views\\Home\\TicketDetails.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T12:23:03.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TripDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\TripDetails.cshtml",
+              "RelativeDocumentMoniker": "BiletOtobus\\Views\\Home\\TripDetails.cshtml",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\TripDetails.cshtml",
+              "RelativeToolTip": "BiletOtobus\\Views\\Home\\TripDetails.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T09:01:44.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\SearchResults.cshtml",
+              "RelativeDocumentMoniker": "BiletOtobus\\Views\\Home\\SearchResults.cshtml",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\SearchResults.cshtml",
+              "RelativeToolTip": "BiletOtobus\\Views\\Home\\SearchResults.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T21:31:09.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BiletOtobus\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BiletOtobus\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:16:45.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BiletOtobus\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\melek\\OneDrive\\Masa\u00FCst\u00FC\\BiletOtobus\\BiletOtobus\\BiletOtobus\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BiletOtobus\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T11:14:59.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

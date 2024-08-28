@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Bilet Onayı";
+}
+
+<h2>Biletiniz</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Nereden</th>
+            <th>Nereye</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewBag.Name</td>
+            <td>@ViewBag.Surname</td>
+            <td>@ViewBag.DepartureLocation</td>
+            <td>@ViewBag.ArrivalLocation</td>
+            <td>@ViewBag.DepartureTime.ToString("yyyy-MM-dd HH:mm")</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Alınan Koltuklar:</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Koltuk Numarası</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var seat in ViewBag.SelectedSeats)
+        {
+            <tr>
+                <td>@seat.SeatNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>Ödenen Para: @ViewBag.TotalPrice TL</p>

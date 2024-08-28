@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Bilet Detayları";
+}
+<style>
+    #search {
+        margin-top: 10px;
+    }
+</style>
+
+<h2>Bilet Detayları</h2>
+
+<p>Sefer Bilgileri:</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nereden</th>
+            <th>Nereye</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@ViewBag.DepartureLocation</td>
+            <td>@ViewBag.ArrivalLocation</td>
+            <td>@ViewBag.DepartureTime.ToString("yyyy-MM-dd HH:mm")</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Seçilen Koltuklar:</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Koltuk Numarası</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var seat in ViewBag.SelectedSeats)
+        {
+            <tr>
+                <td>@seat.SeatNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>Toplam Fiyat: @ViewBag.TotalPrice TL</p>
+
+<form action="SavedTicket" method="post">
+    <input type="hidden" name="tripId" value="@ViewBag.TripId" />
+    @foreach (var seat in ViewBag.SelectedSeats)
+    {
+        <input type="hidden" name="selectedSeatIds" value="@seat.Id" />
+    }
+
+    <div class="form-group">
+        <label for="name">Ad:</label>
+        <input type="text" name="name" id="name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="surname">Soyad:</label>
+        <input type="text" name="surname" id="surname" class="form-control" required />
+    </div>
+
+    <button id="search" type="submit" class="btn btn-primary">Onayla</button>
+</form>
